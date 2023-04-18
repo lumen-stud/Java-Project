@@ -76,8 +76,8 @@
 
 // // OPERATORS
 //Assignment Operators
-let a = 24;
-let b = 30;
+// let a = 24;
+// let b = 30;
 
 //"=" in used in this case to assign values to 'a' and 'b'
 
@@ -116,9 +116,63 @@ let b = 30;
 // console.log(parseInt("3.14"));
 
 //String glo method
-console.log(String(700));
-console.log(String(undefined));
-console.log(String(null));
+// console.log(String(700));
+// console.log(String(undefined));
+// console.log(String(null));
 
-console.log((500).toString());
-console.log(Boolean(599));
+//console.log(null.toString()); //NB: This does not work for Null and Unspecified values.
+
+// console.log((500).toString());
+// console.log(Boolean(599));
+
+//EQUALITIES
+// const col1 = null;
+// const col2 = undefined;
+
+// console.log(col1 == col2);
+// console.log(col1 === col2);
+
+//C0NDITONAL STATEMENTS.
+
+// const num = 10;
+// if (num < 0) {
+//   console.log("Number is less than 0");
+// } else if (num > 0) {
+//   console.log("You got it right");
+// } else {
+//   console.log("wo ti abon paa");
+// }
+
+//SWITCH METHOD
+// const height = 10;
+
+// switch (height) {
+//   case 33:
+//     console.log("Valid");
+//     break;
+//   case 22:
+//     console.log("Sorry, please try again");
+//     break;
+//   case 10:
+//     console.log("Too bad...try again");
+//     break;
+// }
+
+//LOOPS
+
+// for (let a = 1; a <= 10; a++) {
+//   //'for'loop
+//   console.log(4 + a);
+// }
+
+// let a = 1;
+// while (a < 5) {
+//   console.log("literation number" + a); //'while' loop
+//   a++;
+// }
+
+let a = 20;
+do {
+  console.log(15 + a); //'do while' loop
+  a++;
+} while (a < 20);
